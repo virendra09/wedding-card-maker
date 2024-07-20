@@ -1,0 +1,22 @@
+.image-editor {
+  position: relative;
+}
+
+.edit-area {
+  position: relative;
+  display: inline-block;
+}
+
+.image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.draggable-text {
+  position: absolute;
+  cursor: move;
+   white-space: normal; 
+  overflow: hidden;
+  box-sizing: border-box;
+}
